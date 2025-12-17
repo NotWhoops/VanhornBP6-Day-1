@@ -1,18 +1,63 @@
 body {
     background-image: url(../assets/weatherAppBG.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .locationColor {
     color: #C30000;
     font-family: pixelify-sans;
-    font-size: 40px;
+    font-size: 34px;
+}
+
+.locationColor2 {
+    color: #C30000;
+    font-family: pixelify-sans;
+    font-size: 34px;
+    text-align: center;
+}
+
+.forcastColor {
+    color: #0BF33D;
+    font-family: pixelify-sans;
+    font-size: 30px;
+    text-align: center;
+}
+
+.upcomingColor {
+    color: #0BF33D;
+    font-family: pixelify-sans;
+    font-size: 30px;
+    text-align: center;
 }
 
 .favoritesColor {
     color: #C30000;
     font-family: pixelify-sans;
     font-size: 26px;
+}
+
+.tempColor{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tempColor2{
+    color: white;
+    font-size: 30px;
+}
+
+.tempColor3{
+    color: white;
+    font-size: 30px;
+    text-align: end;
+}
+
+.monColor{
+    color: white;
+    font-size: 30px;
+    text-align: center;
 }
 
 .locationFlex{
@@ -32,6 +77,56 @@ body {
 .locationMargin3{
     margin-right: 110px;
     margin-left: 110px;
+}
+
+.forcastBG{
+    background-color: #D9D9D942;
+    padding: 50px;
+    width: 600px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+.upcomingBG{
+    background-color: #D9D9D942;
+    border-radius: 10px;
+    width: 517px;
+    height: 275px;
+    top: 257px;
+    left: 539px;
+}
+
+.daysBG{
+    background-color: #41447470;
+}
+
+.sunBG{
+    background-color: #41447470;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.imgSize{
+    margin-left: 200px;
+}
+
+.tempBG{
+    background-color: #41447470;
+}
+
+.redSize{
+    width: 38px;
+    height: 48px;
+}
+
+.blueSize{
+    width: 38px;
+    height: 48px;
+}
+
+.columnSpace{
+    padding: 50px;
+    margin-bottom: 100px;
+    margin-left: 200px;
 }
 
 @font-face {
