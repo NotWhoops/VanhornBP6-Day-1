@@ -6,10 +6,32 @@ body {
 .locationColor {
     color: #C30000;
     font-family: pixelify-sans;
+    font-size: 40px;
 }
 
-.locationGrid{
-    display: flex
+.favoritesColor {
+    color: #C30000;
+    font-family: pixelify-sans;
+    font-size: 26px;
+}
+
+.locationFlex{
+    display: flex;
+    align-items: start;
+    margin-top: 60px;
+}
+
+.locationMargin{
+    margin-right: 130px;
+    margin-left: 130px;
+}
+.locationMargin2{
+    margin-right: 90px;
+    margin-left: 90px;
+}
+.locationMargin3{
+    margin-right: 110px;
+    margin-left: 110px;
 }
 
 @font-face {

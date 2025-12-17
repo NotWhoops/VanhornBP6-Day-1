@@ -11,31 +11,53 @@
 </head>
 
 <body>
-    <div class="container locationGrid">
+    <div class="container-fluid locationFlex">
+        <div class="locationMargin"></div>
         <div class="row">
-            <div class="col">
-                <img src="./assets/location icon.png" alt="location ping">
-            </div>
-            <div class="col">
-                <h1 class="locationColor">Stockton, Ca</h1>
-            </div>
-        </div>
-    </div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <img src="./assets/location icon.png" alt="location icon">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <p class="locationColor">Stockton, Ca</p>
+                            </li>
+                    </div>
+                    <div class="locationMargin2"></div>
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <form class="d-flex" role="search">
+                            <img src="./assets/search icon.png" alt="search icon">
+                            <input class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./index.html">Stockton,Ca</a></li>
+                                <li><a class="dropdown-item" href="./sanfrancisco.html">San Francisco,Ca</a></li>
+                                <li><a class="dropdown-item" href="./sanjose.html">San Jose,Ca</a></li>
+                                <li><a class="dropdown-item" href="./santacruz.html">Santa Cruz,Ca</a></li>
+                            </ul>
+                        </form>
+                    </nav>
+                    <div class="locationMargin3"></div>
+                    <div>
+                        <img src="./assets/favorites icon.png" alt="favorites icon">
+                        <p class="favoritesColor">Favorites</p>
+                    </div>
+                </div>
 
 
-    <!-- <h1>My Location</h1>
-    <p id="output">Click the button to get your location.</p>
-    <button id="getLocationBtn">Get My Location</button> -->
 
 
 
 
-
-
-    <script src="./scripts/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+                <script src="./scripts/app.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                    crossorigin="anonymous"></script>
 </body>
 
 </html>
