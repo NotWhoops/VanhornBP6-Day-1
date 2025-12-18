@@ -66,14 +66,21 @@ body {
     margin-top: 60px;
 }
 
+.navbarBG{
+    background-color: #FFFFFF5C;
+    opacity: 100%;
+}
+
 .locationMargin{
     margin-right: 130px;
     margin-left: 130px;
 }
+
 .locationMargin2{
     margin-right: 90px;
     margin-left: 90px;
 }
+
 .locationMargin3{
     margin-right: 110px;
     margin-left: 110px;

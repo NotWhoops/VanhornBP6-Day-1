@@ -14,7 +14,7 @@
     <div class="container-fluid locationFlex">
         <div class="locationMargin"></div>
         <div class="row">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <img src="./assets/location icon.png" alt="location icon">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,9 +29,19 @@
                             </li>
                     </div>
                     <div class="locationMargin2"></div>
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <nav class="navbar navbar-expand-lg navbarBG">
                         <form class="d-flex" role="search">
-                            <img src="./assets/search icon.png" alt="search icon">
+                            <div class="dropdown">
+                                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="./assets/search icon.png" alt="search icon">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./index.html">Stockton,Ca</a></li>
+                                    <li><a class="dropdown-item" href="./sanfrancisco.html">San Francisco,Ca</a></li>
+                                    <li><a class="dropdown-item" href="./sanjose.html">San Jose,Ca</a></li>
+                                    <li><a class="dropdown-item" href="./santacruz.html">Santa Cruz,Ca</a></li>
+                                </ul>
+                            </div>
                             <input class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                             <ul class="dropdown-menu">
@@ -43,11 +53,25 @@
                         </form>
                     </nav>
                     <div class="locationMargin3"></div>
-                    <div>
-                        <img src="./assets/favorites icon.png" alt="favorites icon">
-                        <p class="favoritesColor">Favorites</p>
-                    </div>
+                    <nav class="navbar navbar-expand-lg">
+                        <form class="d-flex" role="search">
+                            <div class="dropdown">
+                                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="./assets/favorites icon.png" alt="favorites icon">
+                                    <p class="favoritesColor">Favorites</p>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./index.html">Stockton,Ca</a></li>
+                                    <li><a class="dropdown-item" href="./sanfrancisco.html">San Francisco,Ca</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="./sanjose.html">San Jose,Ca</a></li>
+                                    <li><a class="dropdown-item" href="./santacruz.html">Santa Cruz,Ca</a></li>
+                                </ul>
+                            </div>
+                        </form>
+                    </nav>
                 </div>
+            </nav>
         </div>
     </div>
     <br>
@@ -63,72 +87,73 @@
                     <div class="col">
                         <p class="tempColor">80°</p>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="tempColor2">83°</p>
-                            <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
-                        </div>
-                        <div class="col">
-                        </div>
+                    <div class="col">
+                        <p class="tempColor2">83°</p>
+                        <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <p class="tempColor3">77°</p>
-                            <img class="blueSize" src="./assets/blue arrow.png" alt="blue arrow">
-                        </div>
+                    <div class="col">
+                        <p class="tempColor3">77°</p>
+                        <img class="blueSize" src="./assets/blue arrow.png" alt="blue arrow">
                     </div>
                 </div>
             </div>
-            <div class="col upcomingBG columnSpace">
-                <h1 class="locationColor2">Upcoming Forcast</h1>
-                <div class="daysBG">
-                    <div class="row">
-                        <div class="col">
-                            <p class="upcomingColor">Mon</p>
-                            <img src="./assets/sun.png" alt="sunnny">
-                            <p class="monColor">77°</p>
-                            <p class="monColor">80°</p>
-                            <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
-                            <p class="monColor">72°</p>
-                            <img class="blueSize" src="./assets/blue arrow.png" alt="blue arrow">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="daysBG">
-                    <p class="upcomingColor">Tue</p>
-                    <img class="cloudSize" src="./assets/cloud.png" alt="cloudy">
-                    <p class="monColor">73°</p>
-                    <p class="monColor">76°</p>
-                    <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
-                    <p class="monColor">70°</p>
-                    <img class="blueSize" src="./assets/blue arrow.png" alt="blue arrow">
-                </div>
-                <div class="daysBG">
-                    <p class="upcomingColor">Wed</p>
-                    <img src="./assets/sun.png" alt="sunny">
-                    <p class="monColor">77°</p>
-                    <p class="monColor">82°</p>
-                    <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
-                    <p class="monColor">72°</p>
-                    <img class="blueSize" src="./assets/blue arrow.png" alt="blue arrow">
-                </div>
-                <div class="daysBG">
-                    <p class="upcomingColor">Thur</p>
-                    <img src="./assets/sun.png" alt="sunny">
-                    <p class="monColor">83°</p>
-                    <p class="monColor">85°</p>
-                    <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
-                    <p class="monColor">79°</p>
-                    <img class="blueSize" src="./assets/blue arrow.png" alt="blue arrow">
-                </div>
-                <div class="daysBG">
-                    <p class="upcomingColor">Fri</p>
-                    <img src="./assets/cloud.png" alt="cloudy">
-                    <p class="monColor">79°</p>
-                    <p class="monColor">83°</p>
-                    <img class="redSize" src="./assets/red arrow.png" alt="red arrow">
-                    <p class="monColor">73°</p>
-                    <img class="blueSize" src="./assets/blue arrow.png" alt="blue arrow">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
