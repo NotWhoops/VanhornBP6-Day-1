@@ -46,23 +46,24 @@ body {
 
 .tempColor{
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
 }
 
 .tempColor2{
     color: white;
-    font-size: 30px;
-}
-
-.tempColor3{
-    color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .monColor{
     color: white;
-    font-size: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.monColor2{
+    color: white;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -95,24 +96,31 @@ body {
 .forcastBG{
     background-color: #D9D9D942;
     padding: 50px;
-    width: 600px;
-    margin-bottom: 100px;
-    border-radius: 10px;
+    width: auto;
+    margin-bottom: 250px;
+    border-radius: 20px;
 }
 
 .upcomingBG{
     background-color: #D9D9D942;
-    border-radius: 10px;
-    width: 517px;
+    border-radius: 20px;
+    width: auto;
+}
+
+.columnSpace{
+    padding: 50px;
+    margin-bottom: 250px;
+    margin-left: 150px;
 }
 
 .daysBG{
     background-color: #41447470;
+    border-radius: 10px;
 }
 
 .sunBG{
     background-color: #41447470;
-    width: 500px;
+    width: 360px;
     border-radius: 10px;
 }
 
@@ -130,26 +138,21 @@ body {
     height: 48px;
 }
 
-.columnSpace{
-    padding: 50px;
-    margin-bottom: 100px;
-    margin-left: 200px;
-}
-
 .favoritesSize{
     width: 30px;
     height: 30px;
 }
+
 /* centered icon for TODAY */
 .todayIcon{
-  width: 90px;
+  width: 130px;
   display: block;
   margin: 0 auto;
 }
 
 /* centered icon for EACH DAY card */
 .dayIcon{
-  width: 55px;
+  width: 85px;
   display: block;
   margin: 8px auto;
 }
